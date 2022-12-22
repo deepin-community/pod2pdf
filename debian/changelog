@@ -1,0 +1,61 @@
+pod2pdf (0.42-5.2) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Fix "please use versioned Depends: libpod-parser-perl (>= 1.63)":
+    do as the bug report suggests (closes: #988360).
+    Thanks to Andreas Beckmann for the report and the solution.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 23 May 2021 16:34:13 +0200
+
+pod2pdf (0.42-5.1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Remove obsolete alternate depends on perl-modules (Closes: #961155)
+
+ -- Dominic Hargreaves <dom@earth.li>  Sun, 08 Nov 2020 18:22:34 +0000
+
+pod2pdf (0.42-5) unstable; urgency=medium
+
+  * Added libpaper-sizes-perl to suggests.
+  * Added dual-life modules to depends.
+  * Set debhelper compat level to 9.
+  * Updated VCS fields to canonical URIs.
+  * Updated my maintainer uid.
+  * Bumped standard version to 3.9.5, no changes needed.
+
+ -- Guo Yixuan (郭溢譞) <culu.gyx@gmail.com>  Sat, 02 Aug 2014 15:14:43 -0400
+
+pod2pdf (0.42-4) unstable; urgency=low
+
+  * Update debian/copyright.
+  * Bump policy to 3.9.3 (no change needed).
+  * Bump debhelper to 8.
+  * Update tags in debian/patches.
+  * Allow float point number in options: --page-width, --page-height, 
+    --left-margin, --right-margin, --top-margin, --bottom-margin, 
+    and --margins.
+  * Fixed the overlapped text bug.
+  * Add an option: --outlines (Closes: #651256).
+
+ -- Guo Yixuan <culu.gyx@gmail.com>  Fri, 20 Apr 2012 11:09:18 +0800
+
+pod2pdf (0.42-3) unstable; urgency=low
+
+  * New Maintainer
+  * Fixed PDF Producer info
+  * Changed pod2pdf's manpage extension to .1p
+
+ -- Guo Yixuan <culu.gyx@gmail.com>  Fri, 24 Feb 2012 17:07:43 +0800
+
+pod2pdf (0.42-2) unstable; urgency=low
+
+  * Documentation fixes (Closes: #541076).
+  * Timestamp in ISO format (Closes: #550265)
+
+ -- Steffen Moeller <moeller@debian.org>  Sun, 12 Sep 2010 17:25:16 +0200
+
+pod2pdf (0.42-1) unstable; urgency=low
+
+  * Initial Release (Closes: #536695).
+
+ -- Steffen Moeller <moeller@debian.org>  Sun, 12 Jul 2009 15:49:19 +0200

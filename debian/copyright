@@ -1,0 +1,27 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: pod2pdf
+Upstream-Contact: Jon Allen (JJ) <jj@jonallen.info>
+Source: http://search.cpan.org/dist/pod2pdf/
+
+Files: *
+Copyright: 2007, Jon Allen (JJ) <jj@jonallen.info>
+License: Artistic-2.0
+
+Files: debian/*
+Copyright: 2009-2010, Steffen Moeller <moeller@debian.org>
+           2012, Guo Yixuan <culu.gyx@gmail.com>
+License: Artistic-2.0 or GPL-3+
+
+License: Artistic-2.0
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the Artistic License, which comes with Perl.
+    On Debian GNU/Linux systems, the complete text of the Artistic License
+    can be found in `/usr/share/common-licenses/Artistic'
+
+License: GPL-3+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 3, or (at your option)
+    any later version.
+    On Debian GNU/Linux systems, the complete text of the GNU General
+    Public License can be found in `/usr/share/common-licenses/GPL-3'

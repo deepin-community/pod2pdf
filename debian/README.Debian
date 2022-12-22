@@ -1,0 +1,12 @@
+pod2pdf for Debian
+==================
+
+The README file mentions Paper::Specs which is not yet available for
+Debian. It would be lovely if someone could address the respective
+packaging work.
+
+dh-make-perl suggests the package to be named libpod2pdf-perl, but
+since the package will mostly be used as a binary, I have decided
+against that convention.
+
+  Steffen Moeller <moeller@debian.org>  Sun, 12 Jul 2009 16:13:58 +0200

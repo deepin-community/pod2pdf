@@ -1,0 +1,41 @@
+Source: pod2pdf
+Section: perl
+Priority: optional
+Build-Depends: debhelper (>= 9)
+Build-Depends-Indep: perl (>= 5.6.0-12),
+  libfile-spec-perl,
+  libpod-parser-perl (>= 1.63), libpod-escapes-perl,
+  libpdf-api2-perl (>= 0.6), libgetopt-argvfile-perl
+Maintainer: Guo Yixuan (郭溢譞) <culu.gyx@gmail.com>
+Standards-Version: 3.9.5
+Homepage: http://search.cpan.org/dist/pod2pdf/
+Vcs-Browser: http://anonscm.debian.org/viewvc/pkg-escience/pod2pdf/trunk/
+Vcs-Svn: svn://anonscm.debian.org/pkg-escience/pod2pdf/trunk/
+
+Package: pod2pdf
+Architecture: all
+Depends: ${perl:Depends}, ${misc:Depends},
+  libfile-spec-perl,
+  libpod-parser-perl (>= 1.63), libpod-escapes-perl,
+  libpdf-api2-perl (>= 0.6), libgetopt-argvfile-perl
+Recommends: libimage-size-perl, libfile-type-perl
+Suggests: libpaper-specs-perl
+Provides: libpod2pdf-perl
+Description: Plain Old Documentation to Portable Document Format converter
+ POD allows for the documentation of Perl code. But with
+ a few tricks, e.g., when disguised as comments, it is
+ applicable to many other languages, too. It resembles
+ HTML in the way that it allows for the structured representation
+ of text. Hence, it looks rather good when converted for
+ printers, HTML or man pages.
+ .
+ This package represents more than a mere alternative
+ to pod2man|groff -man to achieve a coversion from POD
+ to PostScript and from there via ps2pdf to PDF.
+ Its major advantage lies in the inclusion of images
+ for the documentation. This renders POD suitable for
+ many smallish projects as a lingua franca for their
+ documentation - associated with the source and separate
+ documents - so texts (and graphics) can be shared more
+ easily between documenters and programmers.
+

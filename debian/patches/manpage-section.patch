@@ -1,0 +1,14 @@
+Description: Change pod2pdf's manpage extension to .1p
+Author: Guo Yixuan
+Last-Update: 2012-04-11
+--- a/Makefile.PL
++++ b/Makefile.PL
+@@ -31,7 +31,7 @@
+                                     'Pod::Escapes'     => 0,
+                                     'Getopt::ArgvFile' => 0 },
+ 		'MAN1PODS'     => {
+-			'bin/pod2pdf' => "\$(INST_MAN1DIR)/pod2pdf.1",
++			'bin/pod2pdf' => "\$(INST_MAN1DIR)/pod2pdf.1p",
+ 			},
+ 
+ 		clean => { FILES => "*.bak pod2pdf-*" },
